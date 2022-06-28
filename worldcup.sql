@@ -26,6 +26,7 @@ CREATE DATABASE worldcup WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE 
 
 ALTER DATABASE worldcup OWNER TO freecodecamp;
 
+
 \connect worldcup
 
 SET statement_timeout = 0;
